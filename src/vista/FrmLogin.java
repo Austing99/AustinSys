@@ -20,13 +20,13 @@ public class FrmLogin extends javax.swing.JFrame {
         initComponents();
         this.setResizable(false);
         this.setLocationRelativeTo(null);
-        this.setTitle("Login-DADISCOMPU");
+        this.setTitle("Login");
         this.setSize(new Dimension(700, 500));
     }
     
     @Override
     public Image getIconImage(){
-      Image retValue = Toolkit.getDefaultToolkit().getImage(ClassLoader.getSystemResource("images/LogoDadis.png"));
+      Image retValue = Toolkit.getDefaultToolkit().getImage(ClassLoader.getSystemResource("images/"));
     return retValue;
     } 
     /**
@@ -59,14 +59,14 @@ public class FrmLogin extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/DADIS.png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/g"))); // NOI18N
 
         jLabel2.setFont(new java.awt.Font("Serif", 1, 23)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(0, 102, 255));
-        jLabel2.setText("BIENVENIDO A DADISCOMPU");
+        jLabel2.setText("");
 
         jLabel3.setFont(new java.awt.Font("Times New Roman", 3, 20)); // NOI18N
-        jLabel3.setText("PORTOVIEJO-MANABI-ECUADOR.");
+        jLabel3.setText(".");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
